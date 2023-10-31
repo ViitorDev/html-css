@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*Versão de desktop*/
+
+@media screen and (orientation: landscape) {
+    body{
+        background: url(../imagens/back-pc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 97vw;
+        height: 97vh;
+        background-position: center;
+    }
+    main{
+        background-color: #cb088a6c;
+        height: 50vh;
+        width: 70vw;
+    }
+    h1{
+        text-align: center;
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#tv{display: none;}
+    img#pc{display: block;}
+}
